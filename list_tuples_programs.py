@@ -1,14 +1,14 @@
-movie1 = input("enter your first favorite movie name:")
+movie1 = input("enter your first favorite movie name:")         
 movie2 = input ("enter your second favorite movie name:")
 movie3 =input ("enter your third favorite movie name:")
 movies=[movie1, movie2,movie3]
 print(movies)
 
-print(type(movies))
+print(type(movies))   
 
 
 tuple1=(1,2,3,4,5)
-print(tuple1)
+print(tuple1)   
 print(type(tuple1))
 print(tuple1[2])  ###accessing tuple elements
 print(len(tuple1))  ###length of tuple  
@@ -19,3 +19,10 @@ print(tuple2)
 ###slicing of tuples
 tuple3=(10,20,30,40,50)
 print(tuple3[1:4])
+
+
+countries=("india","usa","uk","uae","china")
+print(countries[-1:-4]) ###negative slicing of tuples
+print(countries.count("uk"))  ###to count occurrences of an element in the tuple
+print(countries.index("uae"))   ###to find the index of an element in the tuple 
+

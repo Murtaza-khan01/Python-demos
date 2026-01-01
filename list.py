@@ -9,7 +9,7 @@ print(len(marks))
 student=["mubeen",12,90.1,"aboha"]
 print(student)
 
-####strings are immutble and lists are muttble
+####strings are immutable and lists are mutable
 student01=["mustafa",90,20]
 student[0]="mujtaba"
 print(student)
@@ -22,3 +22,9 @@ print(numbers[1:3])
 ####negative slicing
 marks=[10,100,20,21]
 print(marks[-1:-3])
+
+list=[45,98,4,]
+print(list.pop())
+print(list)
+
+

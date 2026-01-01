@@ -30,3 +30,5 @@ print(list6)
 list7=[10,20,30,20,50]
 print(list7.count(20))    ####to count the occurrences of an element in the list
 print(list7)    
+
+
