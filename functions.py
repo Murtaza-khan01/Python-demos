@@ -44,7 +44,29 @@ heroes= ["superman", "spiderman","batman"]
 def print_len(list):
     print(len(list))
 
-def print_list(list):
+def print_list(list): 
     for item in list:
-        print(item, end="")
-print_list(heroes)
+        print_len(item,end="")
+        print_list(heroes)
+def avage (c,i,d):
+    avage=(c+i+d/2)
+    print(avage)
+    heroes=["itachi,minato,naruto,gojo,yuji,levi"]
+    print_len(list)
+
+def print_len(list):
+    for item in list:
+        print_len(item,end="")
+        print_list(heroes)
+
+def convert(usd_val):
+    pkr_value=usd_val*280
+    print(usd_val,"USD=",pkr_value,"PKR")
+
+convert(12)
+
+        
+
+
+
+
